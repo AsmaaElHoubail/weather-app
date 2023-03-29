@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="head">
+				<h1>Weather App</h1>
+			</div>
+
+			<div class="searchBar">
+				<form class="formS" role="search">
+					<input type="search" id="city-input" name="q" placeholder="Search..." aria-label="Search through site content" />
+					<button type="submit" value="Get Weather" class="btnS">Get Weather</button>
+				</form>
+			</div>
+			<div id="weather-data">
+				<div class="icon">
+					<!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+				</div>
+				<div class="temperature"></div>
+				<div class="description"></div>
+				<div class="details">
+					<!-- <div>Feels like: 23°C</div>
+                <div>Humidity: 40%</div>
+                <div>Wind speed: 5 m/s</div> -->
+				</div>
+			</div>
+		</div>
+		<script src="https://kit.fontawesome.com/3c28b3f1f8.js" crossorigin="anonymous"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
